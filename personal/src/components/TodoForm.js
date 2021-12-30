@@ -17,11 +17,12 @@ export default function TodoForm({ addTodo }) {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="todo..."
           value={input}
+          placeholder="Todo..."
           onChange={(e) => setInput(e.target.value)}
         />
-        <button>Add</button>
+
+        <button className="add">Add</button>
       </form>
     </div>
   );
