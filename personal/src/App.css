@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.todo {
+  margin: 5px;
+  display: flex;
+  padding: 5px;
+}
+.todo button {
+  margin: 2px;
+  font-size: 10px;
+}
+.completed {
+  background: greenyellow;
+  border-radius: 5px;
+}
+.completed:hover {
+  background: honeydew;
+  transform: scale(1.1);
+}
+.delete {
+  background: #b22222;
+}
+.delete:hover {
+  transform: scale(1.1);
+}
