@@ -1,0 +1,46 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  .right {
+    height: 100%;
+    flex: 1;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    h2 {
+      font-family: "Press Start 2P", cursive;
+      font-size: 1rem;
+      position: relative;
+      margin-top: 4rem;
+      margin-left: 2rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 0;
+        border-top: 5px solid black;
+        width: 130px;
+      }
+    }
+    p {
+      margin: 2rem 1rem;
+      padding: 2rem 1rem;
+      font-family: "Poppins";
+      font-size: 0.8rem;
+    }
+    img {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      object-fit: cover;
+    }
+  }
+  .left {
+    height: 100%;
+    flex: 1;
+    background-color: #333333;
+  }
+}

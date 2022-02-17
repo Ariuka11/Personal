@@ -1,0 +1,32 @@
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: transparent;
+  font-family: porter_sans_blockblock;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  .nav-right {
+    flex: 1;
+    background-color: #333333;
+    h1 {
+      color: white;
+      padding: 1rem 1rem;
+    }
+  }
+  .nav-left {
+    display: flex;
+    flex: 1;
+    font-family: "Press Start 2P", cursive;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #333333;
+    gap: 3rem;
+    h3 {
+      padding: 1rem 1rem;
+      font-size: 1rem;
+    }
+  }
+}

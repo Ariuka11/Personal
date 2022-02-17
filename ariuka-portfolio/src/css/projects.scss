@@ -1,0 +1,32 @@
+.work-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  .right {
+    height: 100%;
+    flex: 1;
+    h2 {
+      font-family: "Press Start 2P", cursive;
+      font-size: 1rem;
+      position: relative;
+      margin-top: 4rem;
+      margin-left: 2rem;
+      &::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 0;
+        border-top: 5px solid black;
+        width: 100px;
+      }
+    }
+  }
+  .left {
+    height: 100%;
+    flex: 1;
+    background-color: #333333;
+    img {
+      width: 104%;
+    }
+  }
+}
