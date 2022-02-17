@@ -13,6 +13,12 @@
 @import "./css/skills.scss";
 @import "./css/projects.scss";
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .app {
   position: relative;
 }
