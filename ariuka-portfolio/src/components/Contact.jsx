@@ -7,7 +7,7 @@ const Contact = () => {
         <img src={wave3} alt="" />
       </div>
       <div className="left">
-        <h2>Skills</h2>
+        <h2>Contact</h2>
       </div>
     </div>
   );
